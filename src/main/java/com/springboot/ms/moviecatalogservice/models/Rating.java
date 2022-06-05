@@ -1,4 +1,4 @@
-package com.springboot.ms.moviecatalogservice.model;
+package com.springboot.ms.moviecatalogservice.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,10 +7,10 @@ import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
 @Setter
-public class Movie {
+@Getter
+public class Rating {
 
     private String movieId;
-    private String name;
+    private int starRating;
 }

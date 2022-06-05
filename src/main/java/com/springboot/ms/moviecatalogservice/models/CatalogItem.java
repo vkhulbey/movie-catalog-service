@@ -1,4 +1,4 @@
-package com.springboot.ms.moviecatalogservice.model;
+package com.springboot.ms.moviecatalogservice.models;
 
 import lombok.*;
 
